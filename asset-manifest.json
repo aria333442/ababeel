@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ababeel/static/css/main.be445144.chunk.css",
+    "main.js": "/ababeel/static/js/main.3a9a2f35.chunk.js",
+    "main.js.map": "/ababeel/static/js/main.3a9a2f35.chunk.js.map",
+    "runtime-main.js": "/ababeel/static/js/runtime-main.48bf5710.js",
+    "runtime-main.js.map": "/ababeel/static/js/runtime-main.48bf5710.js.map",
+    "static/css/2.4fedec04.chunk.css": "/ababeel/static/css/2.4fedec04.chunk.css",
+    "static/js/2.91e94743.chunk.js": "/ababeel/static/js/2.91e94743.chunk.js",
+    "static/js/2.91e94743.chunk.js.map": "/ababeel/static/js/2.91e94743.chunk.js.map",
+    "index.html": "/ababeel/index.html",
+    "static/css/2.4fedec04.chunk.css.map": "/ababeel/static/css/2.4fedec04.chunk.css.map",
+    "static/css/main.be445144.chunk.css.map": "/ababeel/static/css/main.be445144.chunk.css.map",
+    "static/js/2.91e94743.chunk.js.LICENSE.txt": "/ababeel/static/js/2.91e94743.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/ababeel/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48bf5710.js",
+    "static/css/2.4fedec04.chunk.css",
+    "static/js/2.91e94743.chunk.js",
+    "static/css/main.be445144.chunk.css",
+    "static/js/main.3a9a2f35.chunk.js"
+  ]
+}
