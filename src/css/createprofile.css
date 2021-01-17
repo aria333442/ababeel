@@ -1,0 +1,13 @@
+.bord {
+  margin-top: 20px;
+  border: 1px solid #cecece;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+  background-color: lightblue;
+  box-shadow: 0 0 10px 1px #eee;
+  margin-bottom: 30px;
+}
+.xxy {
+  background-image: url("https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png");
+}
