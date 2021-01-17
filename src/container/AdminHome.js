@@ -140,7 +140,7 @@ function AdminHome() {
                                     >
                                       <div className="carda">
                                         <img
-                                          src={work.images[1].img}
+                                          src={work.images[0]}
                                           alt="card"
                                           className="imjh"
                                         ></img>
@@ -302,7 +302,7 @@ function AdminHome() {
                                     >
                                       <div className="carda">
                                         <img
-                                          src={work.images[1].img}
+                                          src={work.images[0]}
                                           alt="card"
                                           className="imjh"
                                         ></img>
@@ -465,7 +465,7 @@ function AdminHome() {
                                       >
                                         <div className="carda">
                                           <img
-                                            src={work.images[1].img}
+                                            src={work.images[0]}
                                             alt="card"
                                             className="imjh"
                                           ></img>

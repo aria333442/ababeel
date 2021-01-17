@@ -156,7 +156,7 @@ function Adminuserwork() {
 
                   <Slider {...settings}>
                     {workbyId.work.images.map((image) => {
-                      return <img src={image.img} className="ssssl mt-3"></img>;
+                      return <img src={image} className="ssssl mt-3"></img>;
                     })}
                   </Slider>
                   <h4
@@ -349,7 +349,7 @@ function Adminuserwork() {
 
                   <Slider {...settings}>
                     {workbyId.work.images.map((image) => {
-                      return <img src={image.img} className="ssssl mt-3"></img>;
+                      return <img src={image} className="ssssl mt-3"></img>;
                     })}
                   </Slider>
                   <h4
@@ -540,9 +540,7 @@ function Adminuserwork() {
 
                   <Slider {...settings}>
                     {workbyId.work.images.map((image) => {
-                      return (
-                        <img src={image.img} className="ssssls mt-3"></img>
-                      );
+                      return <img src={image} className="ssssls mt-3"></img>;
                     })}
                   </Slider>
                   <h4

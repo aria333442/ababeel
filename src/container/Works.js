@@ -75,7 +75,7 @@ function Works() {
                                 </th>
                                 <td>
                                   <img
-                                    src={work.images[1].img}
+                                    src={work.images[0]}
                                     alt="card"
                                     className="imjss"
                                   ></img>
@@ -152,7 +152,7 @@ function Works() {
                                 </th>
                                 <td>
                                   <img
-                                    src={work.images[1].img}
+                                    src={work.images[0]}
                                     alt="card"
                                     className="imjss"
                                   ></img>

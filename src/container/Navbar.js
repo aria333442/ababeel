@@ -160,9 +160,9 @@ function Navbar() {
                       onChange={(e) => setquery(e.target.value)}
                       value={query}
                     />
-                    <a className="xds" href={`/work?query=${query}`}>
+                    <NavLink className="xds" to={`/work?query=${query}`}>
                       Search
-                    </a>
+                    </NavLink>
                   </form>
                 </div>
                 <div className="col-4 d-flex justify-content-around pl-0 pr-0 ml-0 mr-0">
@@ -184,8 +184,8 @@ function Navbar() {
                       <NavLink class="dropdown-item" to="/">
                         Home
                       </NavLink>
-                      <NavLink class="dropdown-item" to="#">
-                        Hirings
+                      <NavLink class="dropdown-item" to="/inbox">
+                        messaging
                       </NavLink>
                       <NavLink class="dropdown-item" to="/profile">
                         Profile
@@ -281,8 +281,8 @@ function Navbar() {
                       <NavLink class="dropdown-item" to="/">
                         Home
                       </NavLink>
-                      <NavLink class="dropdown-item" to="#">
-                        Hirings
+                      <NavLink class="dropdown-item" to="/inbox">
+                        messaging
                       </NavLink>
                       <NavLink class="dropdown-item" to="/profile">
                         Profile
@@ -314,9 +314,9 @@ function Navbar() {
                       onChange={(e) => setquery(e.target.value)}
                       value={query}
                     />
-                    <a className="xds" href={`/work?query=${query}`}>
+                    <NavLink className="xds" to={`/work?query=${query}`}>
                       Search
-                    </a>
+                    </NavLink>
                   </form>
                 </div>
               </div>

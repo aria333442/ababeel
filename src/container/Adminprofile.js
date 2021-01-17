@@ -123,7 +123,7 @@ function Adminprofile() {
                             >
                               <div className="carda">
                                 <img
-                                  src={work.images[1].img}
+                                  src={work.images[0]}
                                   alt="card"
                                   className="imjh"
                                 ></img>
@@ -277,7 +277,7 @@ function Adminprofile() {
                             >
                               <div className="carda">
                                 <img
-                                  src={work.images[1].img}
+                                  src={work.images[0]}
                                   alt="card"
                                   className="imjh"
                                 ></img>
