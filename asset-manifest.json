@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ababeel/static/css/main.b5f078ff.chunk.css",
-    "main.js": "/ababeel/static/js/main.bbeefe16.chunk.js",
-    "main.js.map": "/ababeel/static/js/main.bbeefe16.chunk.js.map",
+    "main.js": "/ababeel/static/js/main.bcbd7406.chunk.js",
+    "main.js.map": "/ababeel/static/js/main.bcbd7406.chunk.js.map",
     "runtime-main.js": "/ababeel/static/js/runtime-main.48bf5710.js",
     "runtime-main.js.map": "/ababeel/static/js/runtime-main.48bf5710.js.map",
     "static/css/2.4fedec04.chunk.css": "/ababeel/static/css/2.4fedec04.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.4fedec04.chunk.css",
     "static/js/2.91e94743.chunk.js",
     "static/css/main.b5f078ff.chunk.css",
-    "static/js/main.bbeefe16.chunk.js"
+    "static/js/main.bcbd7406.chunk.js"
   ]
 }
