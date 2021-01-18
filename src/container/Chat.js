@@ -94,8 +94,8 @@ function Chat() {
                       ) {
                         if (convo.user2._id === profile.profile.createdBy._id) {
                           return (
-                            <a
-                              href={`/inbox/${convo.user1.username}/${convo._id}`}
+                            <NavLink
+                              to={`/inbox/${convo.user1.username}/${convo._id}`}
                             >
                               <div className="asdfg">
                                 {convo.user1.online === true ? (
@@ -127,14 +127,14 @@ function Chat() {
                                   {convo.user1.username}
                                 </h5>
                               </div>
-                            </a>
+                            </NavLink>
                           );
                         } else if (
                           convo.user1._id === profile.profile.createdBy._id
                         ) {
                           return (
-                            <a
-                              href={`/inbox/${convo.user2.username}/${convo._id}`}
+                            <NavLink
+                              to={`/inbox/${convo.user2.username}/${convo._id}`}
                             >
                               <div className="asdfg">
                                 {convo.user2.online === true ? (
@@ -166,7 +166,7 @@ function Chat() {
                                   {convo.user2.username}
                                 </h5>
                               </div>
-                            </a>
+                            </NavLink>
                           );
                         }
                       }
@@ -330,8 +330,8 @@ function Chat() {
                             convo.user2._id === profile.profile.createdBy._id
                           ) {
                             return (
-                              <a
-                                href={`/inbox/${convo.user1.username}/${convo._id}`}
+                              <NavLink
+                                to={`/inbox/${convo.user1.username}/${convo._id}`}
                               >
                                 <div className="asdfg">
                                   {convo.user1.online === true ? (
@@ -362,14 +362,14 @@ function Chat() {
                                     {convo.user1.username}
                                   </h5>
                                 </div>
-                              </a>
+                              </NavLink>
                             );
                           } else if (
                             convo.user1._id === profile.profile.createdBy._id
                           ) {
                             return (
-                              <a
-                                href={`/inbox/${convo.user2.username}/${convo._id}`}
+                              <NavLink
+                                to={`/inbox/${convo.user2.username}/${convo._id}`}
                               >
                                 <div className="asdfg">
                                   {convo.user2.online === true ? (
@@ -400,7 +400,7 @@ function Chat() {
                                     {convo.user2.username}
                                   </h5>
                                 </div>
-                              </a>
+                              </NavLink>
                             );
                           }
                         }
