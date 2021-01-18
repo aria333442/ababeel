@@ -120,8 +120,8 @@
   padding-left: 30px !important;
 }
 .pppiiii {
-  height: 90%;
+  height: 310px;
   width: 100%;
-  overflow: auto;
+  display: flex;
   -webkit-overflow-scrolling: touch;
 }
