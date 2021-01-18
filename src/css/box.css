@@ -122,6 +122,6 @@
 .pppiiii {
   height: 310px;
   width: 100%;
-  display: flex;
+  overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
