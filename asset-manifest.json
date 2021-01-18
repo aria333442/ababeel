@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ababeel/static/css/main.8d0d1e99.chunk.css",
-    "main.js": "/ababeel/static/js/main.3ffd1393.chunk.js",
-    "main.js.map": "/ababeel/static/js/main.3ffd1393.chunk.js.map",
+    "main.css": "/ababeel/static/css/main.41191a61.chunk.css",
+    "main.js": "/ababeel/static/js/main.e608cfb9.chunk.js",
+    "main.js.map": "/ababeel/static/js/main.e608cfb9.chunk.js.map",
     "runtime-main.js": "/ababeel/static/js/runtime-main.48bf5710.js",
     "runtime-main.js.map": "/ababeel/static/js/runtime-main.48bf5710.js.map",
     "static/css/2.4fedec04.chunk.css": "/ababeel/static/css/2.4fedec04.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.91e94743.chunk.js.map": "/ababeel/static/js/2.91e94743.chunk.js.map",
     "index.html": "/ababeel/index.html",
     "static/css/2.4fedec04.chunk.css.map": "/ababeel/static/css/2.4fedec04.chunk.css.map",
-    "static/css/main.8d0d1e99.chunk.css.map": "/ababeel/static/css/main.8d0d1e99.chunk.css.map",
+    "static/css/main.41191a61.chunk.css.map": "/ababeel/static/css/main.41191a61.chunk.css.map",
     "static/js/2.91e94743.chunk.js.LICENSE.txt": "/ababeel/static/js/2.91e94743.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/ababeel/static/media/slick.c94f7671.ttf"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.48bf5710.js",
     "static/css/2.4fedec04.chunk.css",
     "static/js/2.91e94743.chunk.js",
-    "static/css/main.8d0d1e99.chunk.css",
-    "static/js/main.3ffd1393.chunk.js"
+    "static/css/main.41191a61.chunk.css",
+    "static/js/main.e608cfb9.chunk.js"
   ]
 }
