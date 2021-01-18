@@ -123,7 +123,5 @@
   height: 90%;
   width: 100%;
   overflow: scroll;
-  display: flex;
-  flex-direction: column-reverse;
   -webkit-overflow-scrolling: touch;
 }
