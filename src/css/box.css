@@ -122,7 +122,5 @@
 .pppiii {
   height: 310px;
   width: 100%;
-  overflow-y: scroll;
-  display: flex;
   -webkit-overflow-scrolling: touch;
 }
