@@ -585,7 +585,7 @@ function Chat() {
                         }
                       })}
                     </div>
-                    <div className="pppiii">
+                    <div className="pppiiii">
                       {chats.chats
                         .slice(0)
                         .reverse()
