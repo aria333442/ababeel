@@ -586,41 +586,44 @@ function Chat() {
                       })}
                     </div>
                     <div className="pppiiii">
-                      {chats.chats.map((chat) => {
-                        if (user1) {
-                          if (user1._id === chat.sender._id) {
-                            return (
-                              <div className="d-flex">
-                                <img
-                                  src={chat.sender.image}
-                                  style={{
-                                    height: "30px",
-                                    borderRadius: "30px",
-                                    marginLeft: "20px",
-                                    marginTop: "20px",
-                                  }}
-                                ></img>
-                                <pre className="oorr">{chat.message}</pre>
-                              </div>
-                            );
-                          } else {
-                            return (
-                              <div className="d-flex">
-                                <img
-                                  src={chat.sender.image}
-                                  style={{
-                                    height: "30px",
-                                    borderRadius: "30px",
-                                    marginLeft: "20px",
-                                    marginTop: "20px",
-                                  }}
-                                ></img>
-                                <pre className="oorrr">{chat.message}</pre>
-                              </div>
-                            );
+                      {chats.chats
+                        .slice(0)
+                        .reverse()
+                        .map((chat) => {
+                          if (user1) {
+                            if (user1._id === chat.sender._id) {
+                              return (
+                                <div className="d-flex">
+                                  <img
+                                    src={chat.sender.image}
+                                    style={{
+                                      height: "30px",
+                                      borderRadius: "30px",
+                                      marginLeft: "20px",
+                                      marginTop: "20px",
+                                    }}
+                                  ></img>
+                                  <pre className="oorr">{chat.message}</pre>
+                                </div>
+                              );
+                            } else {
+                              return (
+                                <div className="d-flex">
+                                  <img
+                                    src={chat.sender.image}
+                                    style={{
+                                      height: "30px",
+                                      borderRadius: "30px",
+                                      marginLeft: "20px",
+                                      marginTop: "20px",
+                                    }}
+                                  ></img>
+                                  <pre className="oorrr">{chat.message}</pre>
+                                </div>
+                              );
+                            }
                           }
-                        }
-                      })}
+                        })}
                     </div>
                     <div>
                       <form onSubmit={sendmessages}>

@@ -119,9 +119,11 @@
   padding-top: -10px !important;
   padding-left: 30px !important;
 }
-.pppiiii {
-  height: 310px;
+.pppii {
+  height: 90%;
   width: 100%;
   overflow: scroll;
+  display: flex;
+  flex-direction: column-reverse;
   -webkit-overflow-scrolling: touch;
 }
