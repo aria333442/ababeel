@@ -25,6 +25,7 @@
   height: 310px;
   width: 100%;
   overflow: auto;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column-reverse;
   -webkit-overflow-scrolling: touch;
